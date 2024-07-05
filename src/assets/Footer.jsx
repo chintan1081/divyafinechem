@@ -11,10 +11,10 @@ const Footer = () => {
     setCurrentYear(currentDate.getFullYear());
   }, [])
   const quicklinks = [
-    { name: 'Home Page', href: 'https://divyafinechem.vercel.app/' },
-    { name: 'About Us', href: 'https://divyafinechem.vercel.app/about' },
-    { name: 'Products', href: 'https://divyafinechem.vercel.app/product' },
-    { name: 'Contact Us', href: 'https://divyafinechem.vercel.app/contact' },
+    { name: 'Home Page', href: '/' },
+    { name: 'About Us', href: '/about' },
+    { name: 'Products', href: '/product' },
+    { name: 'Contact Us', href: '/contact' },
   ];
 
   const products = [
