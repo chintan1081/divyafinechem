@@ -3,9 +3,8 @@ import img1 from './images/f6.jpg';
 import { useNavigate } from 'react-router-dom';
 
 const AboutUs = () => {
-  
+  const navigate = useNavigate();
   const handleClick = () => {
-    const navigate = useNavigate();
     navigate('/contact');
   };
 
