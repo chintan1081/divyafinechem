@@ -1,7 +1,13 @@
 import React from 'react';
 import img1 from './images/f6.jpg';
+import { useNavigate } from 'react-router-dom';
 
 const AboutUs = () => {
+  
+  const handleClick = () => {
+    const navigate = useNavigate();
+    navigate('/contact');
+  };
 
   const values = [
     { icon: '💡', title: 'Timely Deliveries', description: 'Innovative tech startup pushing boundaries, creativity, and revolutionizing industries through forward-thinking ideas.' },
@@ -25,7 +31,7 @@ const AboutUs = () => {
             <p className="text-lg px-4 md:text-xl text-gray-600 mt-4 md:mt-8 text-justify">
             Divyafinechem, in business for 11 years, supplies high-quality calcium carbonate, dolomite, and limestone powders to various industries in India. Our products indirectly touch countless lives through their presence in everyday items. Founded by Mr. Nareshbhai Patel in a small room, the company has grown significantly due to his vision and innovation. Our manufacturing facilities in Palanpur, Gujarat, have an annual production capacity of approximately 110,000 MT. We proudly serve customers across several Indian states, including Gujarat, Maharashtra, Punjab, Rajasthan, Madhya Pradesh, Tamil Nadu, and Uttar Pradesh.
             </p>
-            <button className="bg-orange-500 hover:bg-orange-600 text-white font-bold py-2 md:py-3 px-4 md:px-6 rounded-full mt-4 md:mt-8">
+            <button onClick={handleClick} className="bg-orange-500 hover:bg-orange-600 text-white font-bold py-2 md:py-3 px-4 md:px-6 rounded-full mt-4 md:mt-8">
               Get Started
             </button>
           </div>
