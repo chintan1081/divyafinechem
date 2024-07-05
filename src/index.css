@@ -1,0 +1,14 @@
+/* ./src/index.css */
+@import 'swiper/css';
+@import 'swiper/css/navigation';
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* .product-carousel {
+  display: flex;
+  width: 300%;
+  transition: transform 0.5s ease-in-out;
+}
+ */
+
