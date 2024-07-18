@@ -36,10 +36,11 @@ const products = [
             { label: 'K2O', value: '0.10 to 0.15' },
             { label: 'LoI', value: '40.00 to 45.00' },
             { label: 'CaCO3', value: '93.00 to 98.00' },
-            { label: 'Whitener', value: '92.00 to 97.00' },
-            { label: 'Brightener', value: '89.00 to 95.00' },
+            { label: 'Whiteness', value: '92.00 to 97.00' },
+            { label: 'Brightness', value: '89.00 to 95.00' },
         ],
         uses: [
+            "Cattle feed, Ceramic and in Agriculture",
             "Paints & Coatings (filler, pigment extender)",
             "Paper & Printing (filler, brightness enhancer)",
             "Pipes & PVC products (filler, reinforcement)",
@@ -66,10 +67,11 @@ const products = [
             { label: 'K2O', value: '0.06 to 0.070' },
             { label: 'Na2O', value: '0.05 to 0.060' },
             { label: 'LoI', value: '43.00 to 45.00' },
-            { label: 'Whitener', value: '92.00 to 98.00' },
-            { label: 'Brightener', value: '89.00 to 95.00' },
+            { label: 'Whiteness', value: '92.00 to 98.00' },
+            { label: 'Brightness', value: '89.00 to 95.00' },
         ],
         uses: [
+            "Wall putty",
             "Construction Materials (e.g., cement, bricks)",
             "Glass & Ceramics (improves heat resistance)",
             "Agriculture (soil amendment, magnesium source)",
@@ -94,10 +96,11 @@ const products = [
             { label: 'LoI', value: '42.00 to 45.00' },
             { label: 'CaCO3', value: '95.00 to 98.50' },
             { label: 'MgCO3', value: '0.70 to 1.50' },
-            { label: 'Whitener', value: '65.00 to 80.00' },
-            { label: 'Brightener', value: '63.00 to 78.00' },
+            { label: 'Whiteness', value: '65.00 to 80.00' },
+            { label: 'Brightness', value: '63.00 to 78.00' },
         ],
         uses: [
+            "Wall putty",
             "Construction Materials (cement, concrete, etc.)",
             "Paints & Coatings (as a filler and extender)",
             "Paper & Printing (as a filler and coating material)",
@@ -197,7 +200,7 @@ const SpecificProduct = () => {
                 <h2 className="text-2xl font-bold inline-block border-b-4 rounded-sm border-gray-700 text-orange-500 mb-4">Packing of {product.title} </h2>
                 <br />
                 <div className="pb-6">
-                    <p className="text-lg  mb-2 text-justify">Available in 50kg, 1000kg(1ton), 1250 kg</p>
+                    <p className="text-lg  mb-2 text-justify">Available in 25kgs, 50kgs, 1000kgs(1ton), 1250 kgs</p>
                 </div>
             </div>
         </>

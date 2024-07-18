@@ -9,12 +9,16 @@ const AboutUs = () => {
   };
 
   const values = [
-    { icon: '💡', title: 'Timely Deliveries', description: 'Innovative tech startup pushing boundaries, creativity, and revolutionizing industries through forward-thinking ideas.' },
-    { icon: '⚡', title: 'Quality Products', description: 'Agile tech startup committed to rapid adaptation, flexibility, and problem-solving in the ever-changing tech landscape.' },
-    { icon: '🔍', title: 'Strong Infrastructure', description: 'Passionate tech startup dedicated to innovating and disrupting industries through cutting-edge technology and bold ideas.' },
-    { icon: '🤝', title: 'Reasonable Prices', description: 'Collaborative tech startup fostering partnerships, and synergy to drive collective success and deliver impactful solutions.' },
-    { icon: '👥', title: 'Talented Team', description: 'Customer-centric tech startup prioritizing user needs, building lasting relationships through exceptional service.' },
-    { icon: '🔓', title: 'Professionals Works', description: 'Transparent tech startup committed to openness, honesty, and accountability, ensuring trust and integrity in all our operations.' },
+    { icon: '💡', title: 'Timely Deliveries'},
+    { icon: '⚡', title: 'Quality Products' },
+    { icon: '🧪', title: 'Lab Testing of products before supplying'},
+    { icon: '📦', title: 'Good Packaging'},
+    { icon: '💯', title: 'Full Satisfaction Of Buyer'},
+    { icon: '🔍', title: 'Strong Infrastructure'},
+    { icon: '🤝', title: 'Reasonable Prices'},
+    { icon: '👥', title: 'Talented Team',},
+    { icon: '🔓', title: 'Professionals Works'},
+
   ];
   
   return (

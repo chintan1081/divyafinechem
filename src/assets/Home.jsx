@@ -56,10 +56,10 @@ const Home = () => {
           <h1 className="text-2xl md:text-2xl font-bold text-gray-600">
           WELCOME TO <br className="hidden md:inline" /> <p className="text-3xl md:text-6xl font-bold text-orange-500">Divyafinechem</p> 
           </h1>
-          <p className="text-lg px-4 md:text-xl text-gray-600 mt-4 md:mt-8 text-justify">
+          <p className="letter-spacing-tight text-lg px-4 md:text-xl text-gray-600 mt-4 md:mt-8 text-justify">
           The Legacy of 11 years in business, Divyafinechem has been supplying world class calcium carbonate powder (calcite powder), Dolomite powder and limestone powder and its variants to various industries in domestic market and hance having indirect presence in thousands of products we are using in our daily lives across all age groups. It is a matter of pleasure to observe this minor fact that our presence is touching almost every life.
 <br /><br />
-The company started in one small room with a very big vision of Mr. Nareshbhai Patel. It was hia hard work and hunger for innovation and growth, the small room business, grew year after year. Our manufacturing facilities are situated at Palanpur, Gujarat, India. Annual Production Capacity – Approx. 1,10,000 MT of Calcium Carbonate, Dolomite Powder and Limestone Powder. It gives us immense delight to mention about our domestic footprints in the States: Gujarat, Maharashtra, Punjab, Rajasthan, Madhya Pradesh, Tamil Nadu, Uttarpradesh.
+The company started in one small room with a very big vision of Mr. Nareshbhai Patel. It was his hard work and hunger for innovation and growth, the small room business, grew year after year. Our manufacturing facilities are situated at Palanpur, Gujarat, India. Annual Production Capacity – Approx. 1,10,000 MT of Calcium Carbonate, Dolomite Powder and Limestone Powder. It gives us immense delight to mention about our domestic footprints in the States: Gujarat, Maharashtra, Punjab, Rajasthan, Madhya Pradesh, Tamil Nadu, Uttarpradesh.
           </p>
           <button onClick={handleClick} className="bg-orange-500 hover:bg-orange-600 text-white font-bold py-2 md:py-3 px-4 md:px-6 rounded-full mt-4 md:mt-8">
             Get Started

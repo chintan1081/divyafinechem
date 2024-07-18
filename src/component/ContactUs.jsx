@@ -114,7 +114,7 @@ const ContactUs = () => {
             <p className="mb-8">+91 9409321584</p>
 
             <div className="flex space-x-4">
-            <a href="/" className="text-white hover:text-indigo-400 mx-2"><FaFacebookF /></a>
+            <a href="https://www.facebook.com/share/kJ4nRgYejDEEkkio/?mibextid=qi2Omg" className="text-white hover:text-indigo-400 mx-2"><FaFacebookF /></a>
             <a href="https://www.instagram.com/divyafinechem?utm_source=qr&igsh=cXJiYXVrMjRkMjMw" className="text-white hover:text-indigo-400 mx-2"><FaInstagram /></a>
             <a href="https://x.com/Divyafinechem?t=0Wnzgybxqe_Pa1CCEx3_8w&s=08" className="text-white hover:text-indigo-400 mx-2"><FaTwitter /></a>
             <a href="/" className="text-white hover:text-indigo-400 mx-2"><FaSkype /></a>

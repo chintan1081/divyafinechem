@@ -11,6 +11,8 @@ import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import SpecificProduct from './component/SpecificProduct'
 import Infrastructure from './component/Infrastructure'
+import QualityControl from './component/QualityControl'
+import Packaging from './component/Packaging'
 
 function App() {
 
@@ -26,6 +28,8 @@ function App() {
         <Route path="/contact" element={<ContactUs />} />
         <Route path="/infrastructure" element={<Infrastructure />} />
         <Route path="/products/:productId" element={<SpecificProduct />} />
+        <Route path="/packaging" element={<Packaging />} />
+        <Route path="/quality-control" element={<QualityControl />} />
       </Routes>
      
      <Footer />

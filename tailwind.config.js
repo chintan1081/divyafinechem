@@ -15,7 +15,11 @@ export default {
           '100%': { transform: 'translateX(calc(-250px * 7))' },
         }
       },
+      letterSpacing: {
+        tight: '-0.5px',
+      },
     },
+    
   },
   plugins: [],
   darkMode: 'selector',

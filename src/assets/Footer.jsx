@@ -53,7 +53,7 @@ const Footer = () => {
         </div>
         <div className='grid md:grid-cols-2 justify-center md:justify-start'>
           <div className="flex justify-center py-4 md:pb-2 bg-gray-900">
-            <a href="/" className="text-white hover:text-indigo-400 mx-2"><FaFacebookF /></a>
+            <a href="https://www.facebook.com/share/kJ4nRgYejDEEkkio/?mibextid=qi2Omg" className="text-white hover:text-indigo-400 mx-2"><FaFacebookF /></a>
             <a href="https://www.instagram.com/divyafinechem?utm_source=qr&igsh=cXJiYXVrMjRkMjMw" className="text-white hover:text-indigo-400 mx-2"><FaInstagram /></a>
             <a href="https://x.com/Divyafinechem?t=0Wnzgybxqe_Pa1CCEx3_8w&s=08" className="text-white hover:text-indigo-400 mx-2"><FaTwitter /></a>
             <a href="/" className="text-white hover:text-indigo-400 mx-2"><FaSkype /></a>
