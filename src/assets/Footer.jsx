@@ -41,7 +41,7 @@ const Footer = () => {
                 </div>
                 <div className="flex items-center">
                   <img src="https://assets-global.website-files.com/64869fe528368cc4e6d0795d/648834bdc8c231cb4c06c9d1_message.svg" alt="Email Address" />
-                  <a href="mailto:divyafinechem@gmail.com" className="ml-2">divyafinechem@gmail.com</a>
+                  <a href="mailto:divyafinechem@gmail.com" className="ml-2">info@divyafinechem.com</a>
                 </div>
               </div>
             </div>
